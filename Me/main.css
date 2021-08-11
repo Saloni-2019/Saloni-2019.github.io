@@ -1,0 +1,115 @@
+body {
+    font-family: Palatino, 'Palatino Linotype', serif;;
+    font-weight: 300;
+}
+header {
+    padding: 25px;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 700;
+    margin: 0;
+    color:rgb(46, 7, 97);
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    color: salmon;
+    
+}
+
+header p{
+    padding: 0 20px;
+    margin: 0;
+    float: none;
+    font-size: 20px;
+}
+a{
+    color: purple;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://www.online-tech-tips.com/wp-content/uploads/2020/04/WallpaperCraft.jpg.optimal.jpg');
+    background-size: cover;
+    background-color: aqua;
+    color: #f30c80;
+    height: 600px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+
+  .jumbotron h2{
+      position: absolute;
+      width: 500px;
+      color: cornsilk;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: 600;
+  }
+
+  .jumbotron img{
+      position: relative;
+      left: 600px;
+      size : 100px;
+  }
+
+      
+  .col-sm-7 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  20px;
+    font-weight: 300;
+  }
+.col-sm-5 img{
+      width: 90%;
+      position: relative;
+      left: 10px;
+
+  }
+  .btn.btn-primary {
+      border-radius: 2px;
+      border: darkorange;
+      background-color: darkred;
+      color: darksalmon;
+      text-shadow: none;
+      position: relative;
+      top: 100px;
+    
+  }
+  .btn.btn-primary:hover{
+      color: darksalmon;
+      background-color: rgb(92, 9, 9);
+  }
+
+  .btn-secondary {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+
+  footer{
+      font-size: 12;
+      padding: 20px 0;
+  }
+
+  footer .col-sm-10 {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  footer ul {
+      list-style:none;
+  }
+
+  footer li img{
+      width: 32px;
+      height: 32px;
+  }
